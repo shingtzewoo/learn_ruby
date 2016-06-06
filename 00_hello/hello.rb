@@ -1,11 +1,11 @@
 def hello
-  "Hello!"
+  return "Hello!"
 end
 
 def greet name
   if name == 'Alice'
-    "Hello, Alice!"
+    return "Hello, Alice!"
   elsif name == "Bob"
-    "Hello, Bob!"
+    return "Hello, Bob!"
   end
 end

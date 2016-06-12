@@ -2,7 +2,7 @@ class Book
   attr_accessor :title
 
   def title
-    array = @title.split(' ') #this array is to hold the split title
+    array = @title.split(' ') #holds on to the split title
     array.each_with_index do |e, i|
       if i == 0 or e == "i"
         e.capitalize!
